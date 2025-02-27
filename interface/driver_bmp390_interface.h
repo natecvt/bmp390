@@ -43,6 +43,9 @@
 extern "C"{
 #endif
 
+#define I2C_FILE_PATH "/dev/i2c-7"
+#define BMP390_I2C_ADDR 0x76
+
 /**
  * @defgroup bmp390_interface_driver bmp390 interface driver function
  * @brief    bmp390 interface driver modules
